@@ -3,7 +3,6 @@ import { Platform } from "react-native";
 import * as Notifications from "expo-notifications";
 import * as Device from "expo-device";
 
-
 export const registerForPushNotificationsAsync = async () => {
   let token;
 
@@ -48,10 +47,13 @@ export const sendNotification = async (action, title, expoPushToken) => {
   } else if (action === "delete") {
     messageTitle = "Deleted a task 🗑️";
     messageBody = "A Task is deleted: ";
-  } else if(action==="complete"){
+  } else if (action === "complete") {
     messageTitle = "Congratulation🎉";
-    messageBody = "You Completed a Task !!"
-  }
+    messageBody = "You Completed a Task !!";
+  } else if (action === "edit") {
+    messageTitle = "Edited a task ✏️";
+    messageBody = `Task edited: ${title}`;
+  }  
 
   const message = {
     to: expoPushToken,

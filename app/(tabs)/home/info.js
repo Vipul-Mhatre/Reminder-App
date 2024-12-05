@@ -6,6 +6,19 @@ import { AntDesign, Feather } from "@expo/vector-icons";
 import { SimpleLineIcons } from '@expo/vector-icons';
 
 const info = () => {
+  
+    const [reminderHistory, setReminderHistory] = useState([
+      { id: '1', text: "Reminder 1: Task due on Dec 5th" },
+      { id: '2', text: "Reminder 2: Task due on Dec 10th" },
+    ]);
+  
+    const addReminderToHistory = () => {
+      setReminderHistory([
+        ...reminderHistory,
+        { id: (reminderHistory.length + 1).toString(), text: `Reminder ${reminderHistory.length + 1}` },
+      ]);
+    };
+
   const params = useLocalSearchParams();
   return (
     <View style={{ flex: 1, backgroundColor: "white", padding: 10 }}>

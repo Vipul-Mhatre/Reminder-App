@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a Task Manager application built using React Native. It allows users to manage their tasks efficiently, providing features such as push notifications, tracking of incomplete and complete tasks, and task deletion. Nodemailer is integrated for successful user registration notifications. The technologies utilized include axois, AsyncStorage, Expo Push Notification, and MongoDB for database operations including CRUD operations.
 
-## Get started
+## Demo:
+Watch The  app in action on YouTube: [Task Manager App](https://youtu.be/7QrrBycLou8)
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Push notifications for task.
+- Track incomplete and complete tasks.
+- User registration notification through Nodemailer.
+- CRUD operations for tasks using MongoDB.
 
-   ```bash
-    npx expo start
-   ```
+## Setup Instructions
 
-In the output, you'll find options to open the app in a
+### 1. Clone the Repository
+- git clone https://github.com/Kj1710/Scaleup 
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. Navigate to the Project Directory
+- cd Scaleup
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. Install Dependencies
+- cd api
+- npm i
+- npm start
+- Then open a New Terminal
+- cd Scaleup
+- npm i
+- npm start
+- afer this a qr code will appper below , copy the ip address that is shown in the below The qr code and Search for instances of Your_IP_Address within the project files and change it with you ip address
 
-## Get a fresh project
+5. Run the Application in your phone
+- Install Expo Go App From Playstore, and scan the QR code from the terminal.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Setup:
+Watch The Setup Of The App on YouTube: [Setup Video](https://youtu.be/AV9OBFcS5ks)

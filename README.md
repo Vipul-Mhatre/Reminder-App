@@ -1,52 +1,57 @@
-Here’s a detailed **README.md** file based on the features and tech stack you've shared:
-
----
-
 # Reminder App
 
-A feature-rich reminder application built with modern web and mobile development technologies. This app helps users organize their tasks efficiently with intuitive functionality and a seamless user experience.
+A feature-rich reminder application to help users manage tasks efficiently with a seamless experience.
 
-![alt text](assets/Onboarding-1.png)
-![alt text](assets/Onboarding-2.png)
-![alt text](assets/Onboarding-3.png)
-![alt text](assets/Home.png)
+![Onboarding Screen 1](assets/Onboarding-1.png)
+![Onboarding Screen 2](assets/Onboarding-2.png)
+![Onboarding Screen 3](assets/Onboarding-3.png)
+![Home Screen](assets/Home.png)
 
 ## Features
 
-1. **User Onboarding Screen**
-   - A welcoming and interactive user onboarding process.
-   - Provides a brief overview of the app's features.
+### 1. **User Onboarding**
+   - Interactive walkthrough introducing the app's core features.
+   - Option to skip or revisit onboarding.
 
-2. **Login and Signup**
-   - Secure user authentication with backend integration.
-   - User registration and login capabilities.
-   - Password validation and error handling for a smooth experience.
+### 2. **Login and Signup**
+   - Secure user authentication with email/social logins.
+   - Password validation and easy password reset.
 
-3. **Reminder Task Management**
-   - Add tasks with custom details and deadlines.
-   - Edit tasks to make modifications on the go.
+### 3. **Task Management**
+   - Add, edit, and categorize tasks with deadlines.
+   - Set recurring tasks, due dates, and reminders.
+   - Sort and filter tasks by status and priority.
 
-4. **Completed Tasks**
-   - View completed tasks at the bottom of the task list.
-   - Enables users to keep track of their accomplishments.
+### 4. **Completed Tasks**
+   - Track completed tasks and view history.
+   - Archive or delete tasks for a clutter-free experience.
+   - Celebration animations on task completion.
+
+### 5. **Push Notifications**
+   - Set custom push notifications and email reminders.
+   - Snooze functionality for task reminders.
+   - 
+### 6. **Insights & Reports**
+   - Track productivity with stats and progress reports.
+   - View daily/weekly task summaries.
 
 ---
 
 ## Tech Stack
 
 ### Frontend
-- **React Native**: For creating cross-platform mobile applications.
-- **Expo**: To streamline the development and testing process.
-- **TypeScript**: Ensures robust and type-safe code.
+- **React Native**: Cross-platform mobile app development.
+- **Expo**: Streamlined development and testing.
+- **TypeScript**: Ensures type-safe, reliable code.
 
 ### Backend
-- **Node.js**: Handles server-side logic.
-- **Express.js**: Provides a robust API framework.
-- **MongoDB**: NoSQL database for secure and efficient data storage.
+- **Node.js**: Server-side logic.
+- **Express.js**: Robust API framework.
+- **MongoDB**: Efficient, secure data storage.
 
 ### Additional Tools
-- **Git**: Version control for collaborative development.
-- **Babel**: For JavaScript transpilation.
+- **Git**: Version control for collaborative work.
+- **Babel**: JavaScript transpilation.
 - **Yarn/NPM**: Dependency management.
 
 ---
